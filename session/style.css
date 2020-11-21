@@ -1,0 +1,51 @@
+h1,
+h2 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+input,
+select {
+    border: 0;
+    border-bottom: 1px solid rgb( 167, 214, 120);
+    margin: 12px;
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    position: relative;
+    left: 640px;
+}
+
+a {
+    font-style: italic;
+    color: rgb( 167, 214, 120);
+}
+
+#field_2 {
+    bottom: -15px;
+}
+
+#button {
+    border: 0;
+    color: white;
+    background-color: rgb(167, 214, 120);
+    width: 200px;
+    left: 700px;
+    bottom: -30px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#button:hover {
+    background-color: rgb(188, 238, 138);
+    box-shadow: 0 0 7px rgb(188, 238, 138);
+}
+
+#clear-button:active {
+    background-color: white;
+    box-shadow: 0 0 0;
+}
+
+#clear-button:focus {
+    outline: none;
+}
